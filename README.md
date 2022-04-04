@@ -104,9 +104,9 @@ pkg upgrade -y
 
 pkg install git wget
 
-git clone https://github.com/OnlineHacKing/PUBG_BGMI-Phishing.git
+git clone https://github.com/OnlineHacKing/PUBG-BGMI_Phishing.git
 
-cd PUBG_BGMI-Phishing
+cd PUBG-BGMI_Phishing
 
 chmod +x *
 
@@ -124,9 +124,9 @@ sudo apt upgrade -y
 
 sudo apt install git wget
 
-git clone https://github.com/OnlineHacKing/PUBG_BGMI-Phishing.git
+git clone https://github.com/OnlineHacKing/PUBG-BGMI_Phishing.git
 
-cd PUBG_BGMI-Phishing
+cd PUBG-BGMI_Phishing
 
 chmod +x *
 
