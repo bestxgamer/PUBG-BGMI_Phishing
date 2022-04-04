@@ -26,7 +26,7 @@
 
 <p align="center">
 
-![unnamed (2)](https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI.jpg)
+![unnamed (2)](https://github.com/OnlineHacKing/PUBG-BGMI_Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI.jpg)
 
 </p>
 
