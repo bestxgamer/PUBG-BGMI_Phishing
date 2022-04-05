@@ -368,17 +368,7 @@ elif [ $option = 50 ] || [ $option = 050 ]
 
                            echo ""
 			   echo ""
-	          { clear; banner; echo; }
-	          cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}SUMAN ${RED}[ ${ORANGE}Online HacKing ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/OnlineHacKing
-		${GREEN}Telegram   ${RED}:  ${CYAN}https://t.me/OnlineHacking
-		${GREEN}Version  ${RED}:  ${ORANGE}2.2
-		${REDBG}${WHITE} Thanks : Online Hacking
-		${RED}Warning:${WHITE}
-		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
-		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
-		${RED}[${WHITE}${RED}]${ORANGE}      ${RED}[${WHITE}${RED}]${ORANGE} 
+	         
 
                  echo ""
 	
