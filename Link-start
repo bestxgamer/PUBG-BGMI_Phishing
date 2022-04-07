@@ -119,3 +119,7 @@ start_cloudflared() {
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
 }
+
+echo
+echo ""
+echo -e ""
