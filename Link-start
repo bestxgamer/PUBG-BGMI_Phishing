@@ -28,6 +28,7 @@ start_cloudflared
 fi
 if [[ $option == *'2'* ]]; then
 echo""
+
 install_ngrok
 start_ngrok
 
