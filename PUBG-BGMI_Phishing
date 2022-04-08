@@ -33,7 +33,7 @@ clear
 cd /data/data/com.termux/files/usr/bin/OnlineHacking/
 bash Logo.sh
 bash Logo2.sh
-bash 2File.sh
+bash 
 echo ""
 echo ""
 
