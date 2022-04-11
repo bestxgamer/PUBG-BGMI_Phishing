@@ -37,7 +37,10 @@ bash
 echo ""
 echo ""
 
-
+                 echo -e $''   
+                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
+                 echo ""
+		 
 ## server
 server() {
 echo""
@@ -169,9 +172,8 @@ links() {
 
 
 
-                 echo -e $''   
-                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
-                 echo ""
+
+		 echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
                            cd /data/data/com.termux/files/usr/bin/.SUMAN
