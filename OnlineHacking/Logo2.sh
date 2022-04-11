@@ -2,7 +2,7 @@
 echo -e "\e[1;96m< < < ============================================================ > > >\e[m "
 printf " \e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m " 
 echo " "
-printf "  \e[30;48;5;82m Top Best \e[0m                    \e[30;48;5;82m Latest Page \e[0m "
+printf "      \e[30;48;5;82m Top Best \e[0m                    \e[30;48;5;82m Latest Page \e[0m "
 echo " "
 printf " \e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m " 
 echo " "
