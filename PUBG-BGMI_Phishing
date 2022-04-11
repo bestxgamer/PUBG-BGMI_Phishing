@@ -77,7 +77,7 @@ echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Cloudflared...\e[0m  "
 				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
 			   
 			   echo ""
-			   wait_logo
+			   
 			   echo -e $" \e[91m[\e[0m Online HacKing\e[91m]\e[1;92m Wait for Start.....\e[0m  "
 			   echo -ne ""
                            if [[ `command -v termux-chroot` ]]; then
@@ -181,6 +181,7 @@ links() {
                            server
                            link_server
                            clear
+			   wait_logo
                            l_logo
 			   links
 			   
