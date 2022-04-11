@@ -22,8 +22,7 @@ printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
 printf "\e[1;31m[\e[0m\e[1;92m05\e[0m\e[1;31m] \e[0m\e[1;48;5;21m Collect Car Event \e[0m      \e[1;31m[\e[0m\e[1;92m10\e[0m\e[1;31m] \e[0m\e[1;48;5;200m BGMI Car Event \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m"
 echo
-printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"  
-printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m" 
+printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"   
 echo
 printf "\e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m                     \e[1;31m[\e[0m\e[1;92m50\e[0m\e[1;31m] \e[0m\e[1;33mAbout\e[0m\n"
 echo " "
