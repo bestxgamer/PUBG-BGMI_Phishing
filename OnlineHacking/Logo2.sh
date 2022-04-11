@@ -1,7 +1,7 @@
 
 echo -e "\e[1;96m< < < ============================================================ > > >\e[m "
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m" 
-printf "\e[95m[\e[93m Top Best \e[95m]e[0m                           \e[95m[\e[93m Latest Page \e[95m]e[0m"
+printf "\e[95m[\e[93m Top Best \e[95m]e[0m                           \e[95m╠ \e[93m Latest Page \e[95m ╣ e[0m"
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m" 
 echo " "
 printf "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44m X Suit \e[0m                  \e[1;31m[\e[0m\e[1;92m06\e[0m\e[1;31m] \e[0m\e[1;91;107m BGMI 4 Anniversarry \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m "
