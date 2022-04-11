@@ -151,7 +151,7 @@ links() {
                  echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN
+                           cd /data/data/com.termux/files/usr/bin/.SUMAN
                            cd X-Suit/
 			   echo ""
 			   echo ""
@@ -173,7 +173,7 @@ links() {
 	          break;
                   elif [ $option = 02 ] || [ $option = 2 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
                            cd Avalanche-X-Suit-LuckySpin/         
                            echo ""
                            server
@@ -195,7 +195,7 @@ links() {
                   break;
                   elif [ $option = 03 ] || [ $option = 3 ]
 	          then
-                           cd /data/data/com.termux/files/usr/bin/SUMAN/
+                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
                            cd MidasBuy/
                            echo ""
                            echo""
@@ -217,8 +217,8 @@ links() {
                  break;
                  elif [ $option = 04 ] || [ $option = 4 ]
 	         then
-                           cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd RP-Month-6-event/
+                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd SPIN-EVENT/   
                            echo ""
                            echo""
                            server
@@ -242,8 +242,8 @@ links() {
                 break;
                 elif [ $option = 05 ] || [ $option = 5 ]
 	        then 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd Collect-MC-Larent-Car/
+                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd Collect-Car-event/
                            echo ""
                            echo""
                            server
@@ -263,8 +263,8 @@ links() {
                  elif [ $option = 06 ] || [ $option = 6 ]
 	         then
                 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd Collect-Car-event/
+                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd BGMI_4_Anniversarry/
 			   echo ""
                            echo""
                            server
@@ -283,8 +283,8 @@ links() {
                 break;
    elif [ $option = 07 ] || [ $option = 7 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd SPIN-EVENT/         
+	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd PUBG-4-Anniversarry/         
                            echo ""
                            echo""
                            server
@@ -304,8 +304,8 @@ links() {
                   break;
     elif [ $option = 08 ] || [ $option = 8 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd Godzilla-LuckySpin/         
+	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd PUBG-RP-M9/         
                            echo ""
                            echo""
                            server
@@ -325,8 +325,8 @@ links() {
 		  
 elif [ $option = 09 ] || [ $option = 9 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd Collect-EVENT-LINE/         
+	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd BGMI-Collect-M416/         
                            echo ""
                            echo""
                            server
@@ -346,8 +346,8 @@ elif [ $option = 09 ] || [ $option = 9 ]
                   break;		  
 elif [ $option = 10 ] || [ $option = 010 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd Lucky-Spin-Godzila-S19/     
+	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd BGMI-Car-Event/     
                            echo ""
                            echo""
                            server
