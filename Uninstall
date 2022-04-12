@@ -34,10 +34,21 @@ echo ""
 echo ""
 sleep 7
 cd /data/data/com.termux/files/usr/bin
-rm -rf SUMAN FreeFire PUBG-BGMI_Phishing ngrok cloudflared
+rm -rf PUBG BGMI start-link PUBG-BGMI_Phishing 
+rm -rf OnlineHacking/Logo.sh
+rm -rf OnlineHacking/Logo2.sh
+rm -rf  .SUMAN/X-Suit/
+rm -rf  .SUMAN/Avalanche-X-Suit-LuckySpin/
+rm -rf  .SUMAN/MidasBuy/
+rm -rf  .SUMAN/SPIN-EVENT/
+rm -rf  .SUMAN/RP-Month-6-event/
+rm -rf  .SUMAN/BGMI_4_Anniversarry/
+rm -rf  .SUMAN/PUBG-4-Anniversarry/
+rm -rf  .SUMAN/PUBG-RP-M9/
+rm -rf  .SUMAN/BGMI-Collect-M416/
+rm -rf  .SUMAN/BGMI-Car-Event/
 cd /data/data/com.termux/files/home
 rm -rf PUBG-BGMI_Phishing
-
 echo -e ""
 echo ""
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
@@ -62,9 +73,21 @@ echo ""
 echo ""
 sleep 7
 cd /usr/bin
-rm -rf SUMAN FreeFire Run-Ngrok OnlineHacking FreeFire-Phishing ngrok cloudflared
-cd /root
-rm -rf FreeFire-Phishing
+rm -rf PUBG BGMI start-link PUBG-BGMI_Phishing 
+rm -rf OnlineHacking/Logo.sh
+rm -rf OnlineHacking/Logo2.sh
+rm -rf  .SUMAN/X-Suit/
+rm -rf  .SUMAN/Avalanche-X-Suit-LuckySpin/
+rm -rf  .SUMAN/MidasBuy/
+rm -rf  .SUMAN/SPIN-EVENT/
+rm -rf  .SUMAN/RP-Month-6-event/
+rm -rf  .SUMAN/BGMI_4_Anniversarry/
+rm -rf  .SUMAN/PUBG-4-Anniversarry/
+rm -rf  .SUMAN/PUBG-RP-M9/
+rm -rf  .SUMAN/BGMI-Collect-M416/
+rm -rf  .SUMAN/BGMI-Car-Event/
+cd /data/data/com.termux/files/home
+rm -rf PUBG-BGMI_Phishing
 
 echo -e ""
 echo ""
