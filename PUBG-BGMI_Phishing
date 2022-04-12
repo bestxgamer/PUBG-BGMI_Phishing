@@ -3,7 +3,6 @@ echo ""
 
 ## server
 server() {
-echo""
          echo ""
          echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
 			   sleep 2
@@ -166,18 +165,14 @@ clear
 cd /data/data/com.termux/files/usr/bin/OnlineHacking/
 bash Logo.sh
 bash Logo2.sh
-bash 
 echo ""
 echo ""
 
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
                  echo ""
-		 cd /data/data/com.termux/files/usr/bin/.SUMAN/
 		 echo ""
 		 
-
-
 
 
 
