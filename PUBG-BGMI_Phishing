@@ -174,8 +174,6 @@ cd /data/data/com.termux/files/usr/bin/OnlineHacking/
 bash Logo.sh
 bash Logo2.sh
 echo ""
-echo ""
-
                  echo -e $''   
                  read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m  You Want to Choose Phishing Option  \e[1;91m  > : \e[0m' option
                  echo ""
