@@ -3,8 +3,7 @@ echo ""
 
 ## server
 server() {
-         echo ""
-         echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
+                           echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m Server Status Chacking ... \e[0m  "
