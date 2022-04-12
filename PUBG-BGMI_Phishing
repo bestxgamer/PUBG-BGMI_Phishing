@@ -130,7 +130,12 @@ links() {
 
 ## Exit message
 msg_exit() {
-     Thank you for using this tool. Have a good day.
+echo ""
+echo -e "\e[91m[\e[92m+\e[91m] \e[92m Thank you for using this tool. Have a good day. \e[m "
+echo ""
+echo -e "\e[1m \e[36m[+] More Hacking Totorial Chack this Website :\e[93m www.onlinehacking.in \e[m "
+echo ""
+echo ""
 }
 
 
