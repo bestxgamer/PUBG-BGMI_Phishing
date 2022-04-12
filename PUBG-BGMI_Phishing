@@ -205,7 +205,7 @@ echo ""
                            echo ""
                            echo ""
                            tail -f OnlineHacking.txt
-
+                           msg_exit
 
 
 	          break;
@@ -226,7 +226,7 @@ echo ""
                            echo ""
                            echo ""
                            tail -f OnlineHacking.txt
-
+                           msg_exit
 
 
 
@@ -249,7 +249,7 @@ echo ""
                            echo ""
                            echo ""
                            tail -f OnlineHacking.txt 
- 
+                           msg_exit
  
                   
                  break;
