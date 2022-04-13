@@ -189,7 +189,6 @@ echo ""
                            server
                            link_server
                            clear
-			   wait_logo
                            l_logo
 			   links
 			   
