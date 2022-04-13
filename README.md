@@ -1,5 +1,5 @@
 
-# Using Tutorial : https://www.onlinehacking.xyz/2021/07/PUBG-BGMI-Phishing-Hack-Termux.html
+# Using Tutorial : https://www.onlinehacking.in/pubg-bgmi-mobile-account-hack-phishing-tool-with-termux
 
 
 
