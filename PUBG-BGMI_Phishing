@@ -40,10 +40,10 @@ echo -e $" \e[91m[\e[0m-\e[91m]\e[1;92m Launching Cloudflared...\e[0m  "
 			   echo ""
 			   
 			    echo -e $""
-            echo -e "\e[96m========================\e[93m    SUMAN © 2022    \e[96m=========================\e[92m"
+            echo -e "\e[96m========================\e[93m    BXG © 2022    \e[96m=========================\e[92m"
             echo ""
             echo -e "\e[34m
-SUMAN ©\e[92m
+BXG ©\e[92m
    ____        ___               __  __           __   _            
   / __ \____  / (_)___  ___     / / / /___ ______/ /__(_)___  ____ _
  / / / / __ \/ / / __ \/ _ \   / /_/ / __ `/ ___/ //_/ / __ \/ __ `/
@@ -75,7 +75,7 @@ SUMAN ©\e[92m
 
 l_logo() {
 echo -e "\e[92m
-SUMAN ©\e[34m
+BXG ©\e[34m
          ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
         ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
         ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
@@ -89,7 +89,7 @@ SUMAN ©\e[34m
     ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
     ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
-ONLINE HACKING			  
+BXG YOUTUBE			  
 							  							  
           \e[m"
 echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.in  \e[93m/  \e[92mwww.onlinehacking.xyz  \e[0m\n"
@@ -213,12 +213,12 @@ echo ""
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
                            msg_exit
 
 
@@ -226,7 +226,7 @@ echo ""
                   break;
                   elif [ $option = 03 ] || [ $option = 3 ]
 	          then
-                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd MidasBuy/
                            echo ""
                            server
@@ -235,19 +235,19 @@ echo ""
                            l_logo
 			   links
 
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt 
+                           tail -f BXGYOUTUBE.txt 
                            msg_exit
  
                   
                  break;
                  elif [ $option = 04 ] || [ $option = 4 ]
 	         then
-                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd SPIN-EVENT/   
                            echo ""
                            echo""
@@ -258,12 +258,12 @@ echo ""
 			   links
                            
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
                   
                
 	       
@@ -272,7 +272,7 @@ echo ""
                 break;
                 elif [ $option = 05 ] || [ $option = 5 ]
 	        then 
-                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd Collect-Car-event/
                            echo ""
                            echo""
@@ -282,18 +282,18 @@ echo ""
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
                   
                  break;
                  elif [ $option = 06 ] || [ $option = 6 ]
 	         then
                 
-                           cd /data/data/com.termux/files/usr/bin/.SUMAN/
+                           cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd BGMI_4_Anniversarry/
 			   echo ""
                            echo""
@@ -303,17 +303,17 @@ echo ""
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
+                           if [[ -e BXGYOUTUBE.txt ]]; then
                            > log.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt 
+                           tail -f BXGYOUTUBE.txt 
                   
                 break;
    elif [ $option = 07 ] || [ $option = 7 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd PUBG-4-Anniversarry/         
                            echo ""
                            echo""
@@ -323,18 +323,18 @@ echo ""
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
 
 
                   break;
     elif [ $option = 08 ] || [ $option = 8 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd PUBG-RP-M9/         
                            echo ""
                            echo""
@@ -344,18 +344,18 @@ echo ""
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
 
                   break;   
 		  
 elif [ $option = 09 ] || [ $option = 9 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd BGMI-Collect-M416/         
                            echo ""
                            echo""
@@ -365,18 +365,18 @@ elif [ $option = 09 ] || [ $option = 9 ]
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
 
 
                   break;		  
 elif [ $option = 10 ] || [ $option = 010 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/.SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/.BXG/
                            cd BGMI-Car-Event/     
                            echo ""
                            echo""
@@ -386,12 +386,12 @@ elif [ $option = 10 ] || [ $option = 010 ]
                            l_logo
 			   links
                            
-                           if [[ -e OnlineHacking.txt ]]; then
-                           > OnlineHacking.txt
+                           if [[ -e BXGYOUTUBE.txt ]]; then
+                           > BXGYOUTUBE.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f OnlineHacking.txt
+                           tail -f BXGYOUTUBE.txt
 
                   break;		  
 elif [ $option = 50 ] || [ $option = 050 ]
